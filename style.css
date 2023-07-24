@@ -33,7 +33,7 @@ section#iphone {
     width: 311px;
 }
 
-section iframe {
+section > iframe {
     position: relative;
     left: 22px;
     top: 81px;
@@ -48,7 +48,7 @@ section#icones {
     left: 87%;
 }
 
-section img {
+section#icones img {
     display: block;
     height: 10vh;
     margin-bottom: 20px;
@@ -56,12 +56,12 @@ section img {
     box-shadow: 4px 5px 6px rgba(0, 0, 0, 0.555);
 }
 
-section a > img:hover {
+section#icones a > img:hover {
     scale: 1.2;
     transition: 0.2s ease-in;
 }
 
-footer p {
+footer  p {
     font-size: 1.1rem;
     font-weight: bold;
     text-align: center;
