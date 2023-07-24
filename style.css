@@ -43,15 +43,12 @@ section > iframe {
 }
 
 section#icones {
-    margin-top: 110px;
-    position: absolute;
-    left: 87%;
+    text-align: right;
 }
 
 section#icones img {
-    display: block;
     height: 10vh;
-    margin-bottom: 20px;
+    margin: 30px 20px 0px 0px;
     border-radius: 50%;
     box-shadow: 4px 5px 6px rgba(0, 0, 0, 0.555);
 }
@@ -61,7 +58,7 @@ section#icones a > img:hover {
     transition: 0.2s ease-in;
 }
 
-footer  p {
+footer p {
     font-size: 1.1rem;
     font-weight: bold;
     text-align: center;
